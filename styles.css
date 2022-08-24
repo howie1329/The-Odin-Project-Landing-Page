@@ -18,7 +18,7 @@
 
 }
 .leftsideheader{
-    font-size: 24px;
+    font-size: 1.4rem;
     color: #f9faf8;
     width: 50vw;
     height: 6vh;
@@ -29,7 +29,7 @@
 }
 
 .rightsideheader{
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #e5e7eb;
     width: 50vw;
     height: 6vh;
@@ -138,4 +138,39 @@
 }
 .header .link3{
     padding-left: 10px;
+}
+
+
+@media (max-width: 600px) {
+
+    .subsection1{
+        font-size: 18px;
+    }
+
+    .section1 .leftside{
+        display: none;
+    }
+
+    .section1 .rightside{
+        width: 100vw;
+    }
+
+    .section2 .img{
+        border-radius: 5px;
+
+    }
+
+    .placeholder{
+        font-size: 15px;
+    }
+    
+    .section3{
+        height: 20vh;
+    }
+
+    .section3 .section3quote{
+        height: 16vh;
+        width: 45vw;
+        font-size: 18px;
+    }
 }
